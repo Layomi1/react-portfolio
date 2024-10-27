@@ -1,8 +1,11 @@
-
-const Pulse = () => {
+const Pulse = ({ pulse }) => {
   return (
-    <div>Pulse</div>
-  )
-}
+    <div
+      className="w-[20px] h-[20px] rounded-full bg-red"
+    >
+      {pulse}
+    </div>
+  );
+};
 
-export default Pulse
+export default Pulse;

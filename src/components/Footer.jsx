@@ -14,47 +14,47 @@ const Footer = () => {
         </div>
 
         <figure>
-          <img src={layomi1} alt="layomi"className="max-w-[200px] ro" />
+          <img src={layomi1} alt="layomi"className="max-w-[200px] flex-row " />
         </figure>
       </div>
 
 
-      <div className="flex flex-col md:justify-evenly md:flex-row"> 
+      <div className="flex flex-col md:justify-evenly md:flex-row gap-8 "> 
       <div className="">
-        <h5>Mentors</h5>
+        <h5 className="text-red font-semibold mb-2">Mentors</h5>
         <ul>
           <li>
-            <a href="https://github.com/afolabiopakunle" target="_blank">
+            <a href="https://github.com/afolabiopakunle" target="_blank" className="text-gray">
               Afolabi Opakunle
             </a>
           </li>
 
           <li>
-            <a href="https://github.com/daposta" target="_blank">
+            <a href="https://github.com/daposta" target="_blank" className="text-gray">
               Oladapo Lawore
             </a>
           </li>
         </ul>
       </div>
       <div>
-        <h5>Students</h5>
+        <h5 className="text-red font-semibold mb-2">Students</h5>
         <ul>
-          <a href="https://github.com/afolabiopakunle" target="_blank">
+          <a href="https://github.com/afolabiopakunle" target="_blank" className="text-gray">
             Afolabi Opakunle
           </a>
         </ul>
       </div>
 
       <div>
-        <h5>Recommended Sites</h5>
+        <h5 className="text-red font-semibold mb-2">Recommended Sites</h5>
         <ul>
           <li>
-            <a href="https://www.freecodecamp.org/" target="_blank">
+            <a href="https://www.freecodecamp.org/" target="_blank" className="text-gray">
               FreeCodeCamp.org
             </a>
           </li>
           <li>
-            <a href="https://courses.webdevsimplified.com/" target="_blank">
+            <a href="https://courses.webdevsimplified.com/" target="_blank" className="text-gray">
               Web Dev Simpified
             </a>
           </li>

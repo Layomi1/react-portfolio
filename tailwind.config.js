@@ -27,7 +27,8 @@ export default {
       light: '#f8f9fa',
       dark: '#343a40',
       white: '#fff',
-      coral : '#DFBDBE'
+      coral : '#DFBDBE',
+      mushroom:'#ffffe0'
     },
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
