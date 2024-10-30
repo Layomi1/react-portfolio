@@ -17,19 +17,16 @@ function App() {
       </p>
     
      </div>
-      <main className='bg-coral grid  w-full md:grid-cols-3 gap-6 flex-wrap px-16 min-h-[100vh] py-20'>
+      <main className='bg-coral grid  w-full md:grid-cols-3 gap-6 flex-wrap px-5 md:px-16 min-h-[100vh] py-20'>
       
         {
           cardDetails.map((card, id) =>
             <div key={id}>
                <Card  title={card.title} description={card.description} link={card.link} backgroundColor={card.backgroundColor} />
             </div>
-           
           )
         }
         
-      <Card/>
-
       </main>
       <Footer/>
     </div>

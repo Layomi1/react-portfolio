@@ -18,12 +18,12 @@ const Footer = () => {
             <Button text="Hire me" />
           </div>
         </div>
-        <div className="w-[200px] h-[200px] relative border-2 border-dashed border-border pt-12">
-        <a href="https://github.com/layomi1" target="_blank" className="relative w-full h-full cursor-pointer ">
+        <div className="w-[200px] h-[200px] relative border-2 border-dashed relative border-border pt-3">
+        <a href="https://github.com/layomi1" target="_blank" className="relative w-full h-full cursor-pointer">
           <section className="w-full h-full relative spin">
-            <div className="w-full h-full shadow-shadow  absolute overflow-hidden shape">
-              <figure className="spin-reverse w-[140%] h-[140%] absolute left-[-21%] top-[-21%]  flex text-gray text-[5vw] font-bold items-center justify-center uppercase  opacity-100  bg-cover bg-footerImage"></figure>
-            </div>
+            <div className="w-full h-full shadow-shadow  absolute overflow-hidden bg-yellow shape">
+              <figure className="bg-green spin-reverse w-[140%] h-[143%]  flex text-gray text-[5vw] font-bold absolute top-[-10%] -left-[15%] items-center justify-center uppercase  opacity-100  bg-cover bg-footerImage"></figure>
+            </div> 
             </section>         
         </a> 
         </div>
