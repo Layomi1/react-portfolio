@@ -22,7 +22,7 @@ function App() {
         {
           cardDetails.map((card, id) =>
             <div key={id}>
-               <Card  title={card.title} description={card.description} link={card.link} backgroundColor={card.backgroundColor} />
+               <Card background={card.background} activeColor={card.activeColor} title={card.title} description={card.description} link={card.link} pulseColor={card.pulseColor}  color={card.color} />
             </div>
           )
         }
