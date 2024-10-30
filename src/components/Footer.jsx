@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row pt-10 px-5 md:px-28 gap-6 md:justify-between">
+    <div className="flex flex-col md:flex-row py-10 px-5 md:px-28 gap-6 md:justify-between">
       <div className="flex flex-col gap-6">
         <div className="flex items-center gap-1">
           <img src={logo} alt="logo" className="max-w-[50px] md:max-w-[40px]" />
@@ -18,7 +18,7 @@ const Footer = () => {
             <Button text="Hire me" />
           </div>
         </div>
-        <div className="w-[200px] h-[200px] relative border-2 border-dashed relative border-border pt-3">
+        <div className="w-[200px] h-[200px] relative border-2 border-dashed  border-border pt-3">
         <a href="https://github.com/layomi1" target="_blank" className="relative w-full h-full cursor-pointer">
           <section className="w-full h-full relative spin">
             <div className="w-full h-full shadow-shadow  absolute overflow-hidden bg-yellow shape">
