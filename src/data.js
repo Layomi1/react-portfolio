@@ -8,17 +8,17 @@ const cardDetails = [
     pulseColor: "#dc3545",
     background: "#ffffe0",
     activeColor: "#ffc107",
-    hoverTextColor:"#212529"
+    hoverTextColor: "#212529",
   },
   {
     id: 2,
     title: "Shopping Cart",
     description:
       "Shopping cart implemented using Redux and dummy API endpoints ",
-      pulseColor: "#dc3545",
-      background: "#ffffe0",
-      activeColor: "#ffc107",
-      hoverTextColor:"#212529",
+    pulseColor: "#dc3545",
+    background: "#ffffe0",
+    activeColor: "#ffc107",
+    hoverTextColor: "#212529",
 
     link: "https://frontend-rookie-shopping-cart.netlify.app/",
   },
@@ -55,10 +55,10 @@ const cardDetails = [
   },
   {
     id: 6,
-    title: "Meme Generator",
+    title: "Sound-pads",
     description:
-      "The Meme generator is an app that enables user to generate meme, upload files, generate colors and also download their files",
-    link: "https://rookie-admin-dashboard.netlify.app/",
+      "This React app. It was implemented using useState hook in React",
+    link: "https://frontend-rookie-sound-pads.netlify.app/",
     pulseColor: "#28a745",
     background: "#ffffe0",
     activeColor: "#ffc107",
@@ -96,13 +96,33 @@ const cardDetails = [
   },
   {
     id: 10,
-    title: "Upcoming Projects",
+    title: "Multi-step form",
+    link: "https://forntend-rookie-multistep-form.netlify.app/",
+    description: "A multi-step form implemnted in React.",
+    pulseColor: "#dc3545",
+    background: "#ffffe0",
+    activeColor: "#ffc107",
+    color: "#212529",
+  },
+  {
+    id: 11,
+    title: "Admin Dashboard",
+    link: "https://rookie-admin-dashboard.netlify.app/",
     description:
       "Admin dashboard with Charts, Search and theme changing features ",
+    pulseColor: "#28a745",
+    background: "#ffffe0",
+    activeColor: "#ffc107",
+    color: "#212529",
+  },
+  {
+    id: 12,
+    title: "Upcoming Projects",
+    description: "More upcoming projects ",
     pulseColor: "",
     background: "#fff",
     activeColor: "#fff",
-    color: "#ffc107"
+    color: "#ffc107",
   },
 ];
 export default cardDetails;
