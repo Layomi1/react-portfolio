@@ -118,8 +118,7 @@ const cardDetails = [
   },
   {
     id: 12,
-    title: "Simple Movie app",
-    description: "Implementing a movie app with Axios ",
+    title: "Upcoming Projects",
     link: "https://github.com/Layomi1",
     pulseColor: "",
     background: "#fff",
