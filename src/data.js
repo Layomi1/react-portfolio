@@ -118,13 +118,23 @@ const cardDetails = [
   },
   {
     id: 12,
-    title: "Upcoming Projects",
-    description: "For more projects... ",
+    title: "Simple Movie app",
+    description: "Implementing a movie app with Axios ",
     link: "https://github.com/Layomi1",
     pulseColor: "",
     background: "#fff",
     activeColor: "#fff",
     color: "#ffc107",
   },
+  // {
+  //   id: 12,
+  //   title: "Upcoming Projects",
+  //   description: "For more projects... ",
+  //   link: "https://github.com/Layomi1",
+  //   pulseColor: "",
+  //   background: "#fff",
+  //   activeColor: "#fff",
+  //   color: "#ffc107",
+  // },
 ];
 export default cardDetails;
