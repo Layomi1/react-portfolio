@@ -1,2 +1,2 @@
 #My Portfolio
-hosted on: https://layomilawore.netlify.app/
+hosted on: https://layomi-lawore.vercel.app
