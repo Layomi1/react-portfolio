@@ -86,9 +86,10 @@ const cardDetails = [
   },
   {
     id: 9,
-    title: "Tic-tac-toe",
-    description: "Tic-tac-toe game",
-    link: "https://frontend-rookie-tic-tac-toe.netlify.app/",
+    title: "Dynamic form",
+    description:
+      "Dynamic form app that allowa extra form inputs can be removed or added. ",
+    link: "https://frontend-rookie-dynamic-input-fields.netlify.app/",
     pulseColor: "#dc3545",
     background: "#ffffe0",
     activeColor: "#ffc107",
@@ -98,7 +99,7 @@ const cardDetails = [
     id: 10,
     title: "Multi-step form",
     link: "https://forntend-rookie-multistep-form.netlify.app/",
-    description: "A multi-step form implemnted in React.",
+    description: "A multi-step form implemented in React.",
     pulseColor: "#dc3545",
     background: "#ffffe0",
     activeColor: "#ffc107",
@@ -118,7 +119,8 @@ const cardDetails = [
   {
     id: 12,
     title: "Upcoming Projects",
-    description: "More upcoming projects ",
+    description: "For more projects... ",
+    link: "https://github.com/Layomi1",
     pulseColor: "",
     background: "#fff",
     activeColor: "#fff",

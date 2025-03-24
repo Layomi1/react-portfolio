@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="flex items-center gap-1">
           <img src={logo} alt="logo" className="max-w-[50px] md:max-w-[40px]" />
           <p
-            // href="mailto:layomilawore@gmail.com"
             className="text-primary bg-transparent no-underline"
             target="_blank"
           >
